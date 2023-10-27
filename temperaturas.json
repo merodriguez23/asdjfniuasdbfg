@@ -1,0 +1,47 @@
+[
+    {
+        "hora": "01:00",
+        "temperatura": 23.5,
+        "humedad": 13
+    },
+    {
+        "hora": "03:00",
+        "temperatura": 24.0,
+        "humedad": 14   
+    },
+    {
+        "hora": "05:00",
+        "temperatura": 23.5,
+        "humedad": 13
+    },
+    {
+        "hora": "07:00",
+        "temperatura": 24.5,
+        "humedad": 13.5
+    },
+    {
+        "hora": "09:00",
+        "temperatura": 25,
+        "humedad": 15
+    },
+    {
+        "hora": "11:00",
+        "temperatura": 25.5,
+        "humedad": 13
+    },
+    {
+        "hora": "13:00",
+        "temperatura": 25,
+        "humedad": 13
+    },
+    {
+        "hora": "15:00",
+        "temperatura": 24.5,
+        "humedad": 15
+    },
+    {
+        "hora": "15:00",
+        "temperatura": 24.5,
+        "humedad": 15
+    }
+]

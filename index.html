@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.3.0/dist/chart.umd.min.js"></script>
+    <style>
+        .contenedor{
+          margin-bottom: 20px;
+          background: #ef5350;
+          color: #fff;
+        }
+  
+        .contenedor > div{
+          background: rgba(255, 255, 255, .2);
+          padding: 15px;
+          border: 1px solid #ef5350;
+        }
+        span{
+          color: black;
+        }
+      </style>
+</head>
+<body>
+    <div class="col">
+        <div class="row my-5">
+            <div class="contenedor d-flex justify-content-center">
+                <div class="align-self-xxl-stretch">
+                    <button id="boton" class="btn btn-dark">AJAX</button>
+                    <button id="boton-json" class="btn btn-dark">JSON</button>
+                    <button id="dolar" class="btn btn-dark">Dolar</button>
+                    <button id="uf" class="btn btn-dark">Uf</button>
+                    <button id="ditto" class="btn btn-dark">Ditto</button>
+
+                    <table>
+                        <thead class="caja">
+                        </thead>
+                        <tbody class="datos">
+                        </tbody>
+                    </table>
+                    <hr>
+                    <table>
+                        <thead class="caja-dolar">
+                        </thead>
+                        <tbody class="datos-dolar">
+                        </tbody>
+                    </table>
+                    <hr>
+                    <table>
+                        <thead class="caja-ditto shadow-sm">
+                            <img id="poke-foto" class="img-fluid" src="" alt="">
+                        </thead>
+                        <tbody class="datos-ditto">
+                        </tbody>
+                    </table>
+                    
+                    <!-- Generamos un canva para asentar nuestro grafico -->
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <canvas id="temps"></canvas>
+    <script src="ajax.js"></script>
+    <script src="grafico.js"></script>
+</body>
+</html>
